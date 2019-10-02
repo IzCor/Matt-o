@@ -1,0 +1,40 @@
+.div1 p{
+	text-align: center;
+	text-align: center;
+    font-size: 50px;
+    font-family: Arial Black;
+	background-color : white;
+	border:5px dotted #CCCCCC;
+    padding:0.5em;
+}
+
+body{
+	background-image : url('test.png');
+}
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #ddd;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 50px;
+  text-decoration: none;
+  font-size: 20px;
+  width : 26.95%
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #600080;
+  color: white;
+}
