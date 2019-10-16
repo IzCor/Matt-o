@@ -23,7 +23,7 @@ body{
   float: left;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 50px;
+  padding: 14px 3.19%;
   text-decoration: none;
   font-size: 20px;
   width : 26.95%
@@ -44,7 +44,7 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
   width: 100%;
-  border: 2px solid #FFFFFF;
+  border: 3px solid #600080;
 }
 
 th, td {
@@ -59,3 +59,14 @@ tr:nth-child(even) {
   background-color: #f2f2f2
 }
 
+footer { 
+	position : fixed;
+	left : 0;
+	bottom: 0;
+	width: 100%;
+	padding: 6px;
+	border-top: 5px solid #600080;
+	background-color : white;
+	text-align: center;
+	
+}

@@ -7,6 +7,7 @@
 	background-color : white;
 	border:5px dotted #CCCCCC;
     padding:0.5em;
+	
 }
 
 body{
@@ -24,7 +25,7 @@ body{
   float: left;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 50px;
+  padding: 14px 3.19%;
   text-decoration: none;
   font-size: 20px;
   
@@ -42,25 +43,93 @@ body{
   background-color: #600080;
   color: white;
 }
+
+
 .p1{
 	font-size: 20px;
     font-family: sans-serif;
 	background-color : #333;
-	border:1px dotted #CCCCCC;
+	border:1.5px solid #600080;
     padding:0.5em;
 	display:inline-block;
-	width:50%;
+	width:48%;
 	height:50%;
 	margin:0px;
-	border-right:1px solid #CCCCCC;
+	border-right:1.5px solid #600080;
 	text-align:center;
 	line-height:40px;
 	color : white;
+
 	
+}
+
+.p2{
+	font-size: 20px;
+    font-family: sans-serif;
+	background-color : #333;
+	border:1.5px solid #600080;
+    padding:1.1em;
+	display:inline-block;
+	width:47%;
+	height:50%;
+	margin:0px;
+	border-right:1.5px solid #600080;
+	text-align:center;
+	line-height:40px;
+	color : white;
+
+
+}
+
+
+
+footer { 
+	position : fixed;
+	left : 0;
+	bottom: 0;
+	width: 100%;
+	padding: 6px;
+	border-top: 5px solid #600080;
+	background-color : white;
+	text-align: center;
 	
+}
+/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  right:0;
+  -webkit-transform: translateY(-90%);
+  -ms-transform: translateY(-90%);
+  transform: translateY(-90%);
+}
+
+/* Style the icon bar links */
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 15px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 22px;
+}
+
+/* Style the social media icons with color, if you want */
+.icon-bar a:hover {
+  background-color: white;
+}
 
 
 
+.twitter {
+  background: #600080;
+  color: white;
+}
 
+
+.youtube {
+  background: #600080;
+  color: white;
+}
 
 
